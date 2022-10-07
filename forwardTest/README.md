@@ -6,3 +6,9 @@
     - 즉, page 속성을 지정할 때 스키마(htttp://) 부분과 도메인(localhost) 부분 또는 포트 번호를 생략해야 한다.
 - <jsp:forward>액션 태그로 페이지를 이동할 경우 해당 태그 이전 코드들은 의미가 없다. (새로운 페이지로 포워딩하기 때문에 이전 코드는 제거 됨)
 - 조건에 따라 여러 페이지로 이동해야 할 경우에 사용한다.
+- 실행결과
+
+![화면 캡처 2022-10-07 220703](https://user-images.githubusercontent.com/103228982/194560982-ba592b5d-9e37-4254-b1d5-9d8e2f031aec.png)
+
+
+![화면 캡처 2022-10-07 220440](https://user-images.githubusercontent.com/103228982/194560669-59c8d9d6-7f90-484f-bf37-f9fb13b046de.png)
