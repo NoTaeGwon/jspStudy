@@ -1,2 +1,8 @@
-# jspStudy
-## I am studying jsp at school and uploading related code.
+## jsp:forward action tag
+
+- pageContext 내장 객체의 forward() 메서드가 태그로 구현된 기능
+- 다른 페이지로 프로그램의 제어를 이동하는 경우에 사용하며, 이름에서 보듯이 포워드 방식으로 이동한다.
+- forward 액션의 page 속성에서 지정되는 이동할 페이지의 주소는 동일한 웹 애플리케이션의 컨텍스트 루트를 기준으로 한 절대 경로나 상대 경로로만 지정이 가능하다.
+    - 즉, page 속성을 지정할 때 스키마(htttp://) 부분과 도메인(localhost) 부분 또는 포트 번호를 생략해야 한다.
+- <jsp:forward>액션 태그로 페이지를 이동할 경우 해당 태그 이전 코드들은 의미가 없다. (새로운 페이지로 포워딩하기 때문에 이전 코드는 제거 됨)
+- 조건에 따라 여러 페이지로 이동해야 할 경우에 사용한다.
